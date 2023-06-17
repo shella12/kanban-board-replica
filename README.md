@@ -8,7 +8,6 @@
     - [Setup](#setup)
     - [Install](#install)
     - [Start server](#start-server)
-    - [Test](#to-test-the-app-run-following-command)
   - [👤 Author ](#author)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
@@ -33,19 +32,16 @@ This project is a replica of a kanban board built using React JS. It allows you 
 
 ### Key Features <a name="key-features"></a>
 
-Main features:
-
 - **Allows users to drag cards between columns**
 - **Responsive design**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
-[Click]() to see demo of the project
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-click here to see the [Live Demo](https://lighthearted-blancmange-f8080f.netlify.app/)
+[Click]() to see demo of the project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,7 +123,7 @@ If you like this project give it a star :smiley:
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Project guidlines prvided by [mercor](https://mercor.io/) and project [design](https://www.figma.com/file/Paz2INbKkXCSR0Tqb9cmPF/Mercor-Project) provied by [mercor](https://mercor.io/) as well
+Project guidlines and [design](https://www.figma.com/file/Paz2INbKkXCSR0Tqb9cmPF/Mercor-Project) is provied by [mercor](https://mercor.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
