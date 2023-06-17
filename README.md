@@ -1,70 +1,141 @@
-# Getting Started with Create React App
+# 📗 Table of Contents
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- [📖 Air Quality WorldWide](#about-project)
+  - [🛠 Built With](#built-with)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Start server](#start-server)
+    - [Test](#to-test-the-app-run-following-command)
+  - [👤 Author ](#author)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
-## Available Scripts
+<!-- PROJECT DESCRIPTION -->
 
-In the project directory, you can run:
+# 📖 Kanban Board Replica <a name="about-project"></a>
 
-### `npm start`
+This project is a replica of a kanban board built using React JS. It allows you to create, edit, and delete cards that represent your tasks. You can also drag and drop cards between different columns to update their status. This project demonstrates how to use React JS to build a dynamic and interactive web application that follows the kanban methodology. The project design is replicated using the [Figma design](https://www.figma.com/file/Paz2INbKkXCSR0Tqb9cmPF/Mercor-Project) provided by [mercor](https://mercor.io/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠 Built With <a name="built-with"></a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Tech Stack <a name="tech-stack"></a>
 
-### `npm test`
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Key Features <a name="key-features"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Main features:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Allows users to drag cards between columns**
+- **Responsive design**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### `npm run eject`
+<!-- LIVE DEMO -->
+[Click]() to see demo of the project
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🚀 Live Demo <a name="live-demo"></a>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+click here to see the [Live Demo](https://lighthearted-blancmange-f8080f.netlify.app/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<!-- GETTING STARTED -->
 
-## Learn More
+## 💻 Getting Started <a name="getting-started"></a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To get a local copy up and running, follow these steps.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Prerequisites
 
-### Code Splitting
+In order to run this project you need:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Node.js
+- Git
+- Code Editor
+- Browser
 
-### Analyzing the Bundle Size
+### Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Clone this repository to your desired folder:
 
-### Making a Progressive Web App
+```sh
+  git clone https://github.com/shella12/kanban-board-replica.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Install
 
-### Advanced Configuration
+```sh
+ npm install --save -dev
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Start server
 
-### Deployment
+``` npm start ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### `npm run build` fails to minify
+<!-- AUTHORS -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 👤 Author  <a name="author"></a>
+
+### Ayesha
+- GitHub: [@shella12](https://github.com/shella12)
+- Twitter: [@Ayesha Arshad](https://twitter.com/AyeshaA03712974)
+- LinkedIn: [Ayesha Arshad](https://www.linkedin.com/in/-ayesha-arshad/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+ - **Add new tasks**
+ - **Delete tasks**
+ - **Edit tasks**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/shella12/kanban-board-replica/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project give it a star :smiley:
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+Project guidlines prvided by [mercor](https://mercor.io/) and project [design](https://www.figma.com/file/Paz2INbKkXCSR0Tqb9cmPF/Mercor-Project) provied by [mercor](https://mercor.io/) as well
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
