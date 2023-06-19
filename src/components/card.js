@@ -1,11 +1,14 @@
 import Asignee from "./Asignee";
 import iconMessage from '../assets/iconMessage.jpg';
 import iconFile from '../assets/iconFile.png';
+import { Draggable } from 'react-beautiful-dnd';
 
 const Card = (props) => {
-   const {card} = props;
+   const {card, index } = props;
     return(
-       <li className="card flex column">
+      <Draggable draggableId={card.id.toString()} index={index}>
+               {(provided) => (
+       <li className="card flex column"  ref={provided.innerRef}  {...provided.draggableProps} {...provided.dragHandleProps}>
         <div className="card-priority flex">
         <span className={card.priority}>{card.priority}</span>
         <span>...</span>
@@ -26,6 +29,8 @@ const Card = (props) => {
         </div>
         </div>
        </li>
+       )}
+       </Draggable>
     );
     }
     
