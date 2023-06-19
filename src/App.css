@@ -355,6 +355,8 @@ width: 1px;
   background-color: #F5F5F5;
   padding: 0.5rem;
   border-radius: 1.5rem;
+  height: fit-content;
+  min-height: 10rem;
 }
 
 .card-divider-line {
