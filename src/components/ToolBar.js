@@ -27,6 +27,7 @@ const ToolBar = () => {
         <BsChevronDown />
       </div>
      </div>
+     {/* <Hamburger open={open} onClick={() => setOpen(!open)} /> */}
     </div>
   );
 };

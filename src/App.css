@@ -369,7 +369,7 @@ width: 1px;
 
 .grid {
   display: grid;
-  grid-template-columns:  repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns:  repeat(auto-fit, minmax(320px, 1fr));
   margin: 2rem;
   gap: 2%;
 }
@@ -538,4 +538,63 @@ text-align: center;
 .nav-message-block-details input::placeholder {
 color: #0D062D;
 } 
+
+@media only screen and (max-width: 425px){
+	.logo-container, nav {
+    opacity: 0;
+    transform: translate(-20rem);
+  }
+
+  .tool-bar {
+    transform: translate(-20rem);
+  }
+
+  .tool-bar .tb-container-II{
+    display: none;
+  }
+
+  main {
+   margin-left: 0;
+  }
+  .kanban-ProjectDetails {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+  }
+  .kanban-ProjectDetails .collaboration-block{
+    align-self: flex-end;
+  }
+
+  .project-filter{
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .filter-btn {
+    padding: 0.8rem 0.5rem;
+    font-size: 0.8rem;
+    gap: 0;
+  }
+
+ .project-filter div {
+  gap: 0.3rem;
+ }
+
+ .grid {
+  row-gap:1.5rem; 
+ }
+ 
+ .project-column {
+  margin-bottom: 0;
+ }
+
+ .comment-and-files {
+  gap: 0.3rem;
+ }
+
+ .comment-and-files img {
+  width: 0.8rem;
+ }
+}
 
