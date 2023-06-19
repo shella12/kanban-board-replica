@@ -41,11 +41,10 @@ Main features:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
-[Click](https://hilarious-cassata-b7ebd3.netlify.app/) to see demo of the project
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-click here to see the [Live Demo](https://lighthearted-blancmange-f8080f.netlify.app/)
+[Click](https://hilarious-cassata-b7ebd3.netlify.app/) to see demo of the project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
