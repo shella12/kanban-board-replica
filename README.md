@@ -129,7 +129,7 @@ If you like this project give it a star :smiley:
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Project guidlines prvided by [mercor](https://mercor.io/) and project [design](https://www.figma.com/file/Paz2INbKkXCSR0Tqb9cmPF/Mercor-Project) provied by [mercor](https://mercor.io/) as well
+Project guidlines and project [design](https://www.figma.com/file/Paz2INbKkXCSR0Tqb9cmPF/Mercor-Project) provied by [mercor](https://mercor.io/) as well
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
