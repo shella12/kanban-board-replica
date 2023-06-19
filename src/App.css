@@ -29,6 +29,11 @@ a {
   cursor: pointer;
 }
 
+.hamburger {
+  display: none;
+  z-index: 10;
+}
+
 .header {
   position: relative;
   gap:2rem;
@@ -541,16 +546,27 @@ color: #0D062D;
 
 @media only screen and (max-width: 425px){
 	.logo-container, nav {
-    opacity: 0;
-    transform: translate(-20rem);
+    display: none;
+  }
+
+  .active-navbar {
+    width: 100vw;
+    height: 150rem;
+    display: block;
+    z-index: 5;
+    background-color: #fff;
   }
 
   .tool-bar {
-    transform: translate(-20rem);
+    padding: 0.9rem;
   }
 
-  .tool-bar .tb-container-II{
-    display: none;
+  .tool-bar-icons {
+    gap:0.2rem;
+  }
+
+  .tool-bar-icons img{
+width: 1.4rem;
   }
 
   main {
@@ -595,6 +611,42 @@ color: #0D062D;
 
  .comment-and-files img {
   width: 0.8rem;
+ }
+
+ .hamburger {
+  display: inline-block;
+  color: #0D062D;
+  font-size: 2rem;
+  align-self: center;
+  cursor: pointer;
+ }
+
+ .header {
+  gap:0.3rem;
+  padding: 0.6rem;
+ }
+
+ #search-box {
+  min-width: auto;
+  width: 50%;
+  gap: 0.3rem;
+ }
+
+ #search-box input::placeholder{
+  font-size: 0.6rem;
+ }
+
+ #search-box img{
+  width: 1rem;
+ }
+ .current-user-container div {
+  display: none;
+ }
+ .current-user-container img {
+  width:2rem
+ }
+ .tb-container-II {
+  gap:1rem;
  }
 }
 

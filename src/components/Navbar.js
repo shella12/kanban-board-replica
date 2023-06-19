@@ -6,9 +6,10 @@ import iconTasks from '../assets/iconTasks.jpg';
 import lampOn from '../assets/lampOn.png';
 import {RiSettings4Line} from "react-icons/ri";
 
-const Navbar = () => {
+const Navbar = (props) => {
+  const {open} = props;
   return (
-    <nav>
+    <nav className={`${open?"active-navbar":""}`}>
      <div className="flex column nav-links">
       <NavLink to="/home"><img src={iconHome} className="nav-icons" alt="iconHome" />Home</NavLink>
       <NavLink to="/Messages"><img src={iconMessage} className="nav-icons"alt="iconMessage" />Messages</NavLink>
