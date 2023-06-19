@@ -544,7 +544,81 @@ text-align: center;
 color: #0D062D;
 } 
 
-@media only screen and (max-width: 425px){
+@media only screen and (max-width: 1200px){
+  #search-box {
+    min-width: auto;
+    width: 50%;
+}
+
+#project-name {
+  font-size: 2rem;
+}
+
+.kanban-ProjectDetails {
+  gap: 1.5rem;
+  padding: 0.5rem;
+  margin-top: 1.5rem;
+}
+ .collaboration-block img{
+  width: 1.5rem;
+}
+
+.project-filter{
+  padding: 3rem;
+  flex-direction: row;
+}
+
+.filter-btn {
+  padding: 0.8rem 0.5rem;
+  font-size: 0.8rem;
+  gap: 0;
+}
+
+.project-filter {
+  margin-top: 0.5rem;
+}
+
+.project-filter div {
+gap: 0.4rem;
+}
+
+}
+
+@media only screen and (max-width: 786px){
+  .kanban-ProjectDetails {
+    flex-direction: column;
+  }
+
+  #search-box {
+    width: 50%;
+}
+  #search-box img{
+    width: 1rem;
+}
+
+#project-name {
+  font-size: 2rem;
+}
+
+.current-user-container div {
+  display: none;
+ }
+ .current-user-container img {
+  width:2rem
+ }
+ .tb-container-II {
+  gap:1rem;
+ }
+  .project-filter {
+    margin-top: 0.5rem;
+    flex-direction: row;
+  }
+  .kanban-ProjectDetails .collaboration-block{
+    align-self: center;
+  }
+}
+
+@media only screen and (max-width: 600px){
 	.logo-container, nav {
     display: none;
   }
@@ -583,7 +657,7 @@ width: 1.4rem;
   }
 
   .project-filter{
-    justify-content: center;
+    padding: 0 3rem;
     flex-direction: row;
   }
 
@@ -639,14 +713,12 @@ width: 1.4rem;
  #search-box img{
   width: 1rem;
  }
- .current-user-container div {
-  display: none;
- }
- .current-user-container img {
-  width:2rem
- }
- .tb-container-II {
-  gap:1rem;
- }
+}
+
+@media only screen and (max-width: 425px){
+  .project-filter{
+    justify-content: center;
+    flex-direction: row;
+  }
 }
 
