@@ -8,8 +8,13 @@ const Card = (props) => {
    const {card, index } = props;
     return(
       <Draggable draggableId={card.id.toString()} index={index}>
-               {(provided) => (
-       <li className="card flex column"  ref={provided.innerRef}  {...provided.draggableProps} {...provided.dragHandleProps}>
+  {(provided, snapshot) => (
+    <li
+      className={`card flex column ${snapshot.isDragging ? "dragging" : ""}`}
+      ref={provided.innerRef}
+      {...provided.draggableProps}
+      {...provided.dragHandleProps}
+    >
         <div className="card-priority flex">
         <span className={card.priority}>{card.priority}</span>
         <span>...</span>

@@ -3,6 +3,7 @@ import iconHome from '../assets/iconHome.jpg';
 import iconMessage from '../assets/iconMessage.jpg';
 import iconMembers from '../assets/iconMembers.jpg';
 import iconTasks from '../assets/iconTasks.jpg';
+import lampOn from '../assets/lampOn.png';
 import {RiSettings4Line} from "react-icons/ri";
 
 const Navbar = () => {
@@ -23,6 +24,15 @@ const Navbar = () => {
         <NavLink to="/Website Redesign" activeclassname="active"><span className="circle" id="orange"></span>Website Redesign</NavLink>
         <NavLink to="/Design System" activeclassname="active"><span className="circle" id="lilac"></span>Design System</NavLink>
         <NavLink to="/Wireframes" activeclassname="active"><span className="circle" id="blue"></span>Wireframes</NavLink>
+      </div>
+      <div className="nav-message-block flex column">
+        <span><img src={lampOn} alt="Lamp on decoration"/></span>
+        <div className="nav-message-block-details flex column">
+        <h4>Thoughts Time</h4>
+        <p>We don’t have any notice for you, till then you can share your thoughts with your peers.</p>
+        <input type="text" placeholder="Write a message"/>
+        </div>
+
       </div>
     </nav>
   );

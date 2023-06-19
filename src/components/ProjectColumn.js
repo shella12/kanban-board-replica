@@ -13,9 +13,9 @@ const ProjectColumn = (props) => {
       <hr className="card-divider-line" id={color} />
 
       <Droppable droppableId={columnTitle}>
-        {(provided) => (
+        {(provided,snapshot) => (
           <div
-            className="todolist"
+            className={`todolist ${snapshot.isDraggingOver ? "draggingOver" : ""}`}
             ref={provided.innerRef}
             {...provided.droppableProps}
           >
