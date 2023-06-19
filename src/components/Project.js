@@ -102,14 +102,13 @@ const Project = () => {
   const onDragEnd = (result) => {
     const { source, destination } = result;
     if (!destination) return;
-    console.log('source.droppableId:', source.droppableId);
-
+  
     const columns = {
       'To Do': todo,
       'On Progress': onProgress,
       'Done': done,
     };
-    console.log('columns:', columns);
+  
     const columnSetters = {
       'To Do': setTodo,
       'On Progress': setOnProgress,
@@ -117,12 +116,14 @@ const Project = () => {
     };
   
     const sourceColumn = [...columns[source.droppableId]];
-    const destColumn = [...columns[destination.droppableId]];
+    const destColumn = source.droppableId === destination.droppableId ? sourceColumn : [...columns[destination.droppableId]];
     const [removed] = sourceColumn.splice(source.index, 1);
     destColumn.splice(destination.index, 0, removed);
   
     columnSetters[source.droppableId](sourceColumn);
-    columnSetters[destination.droppableId](destColumn);
+    if (source.droppableId !== destination.droppableId) {
+      columnSetters[destination.droppableId](destColumn);
+    }
   };
   return (
       <section className="kanban-project">
