@@ -46,6 +46,9 @@ Main features:
 
 [Click](https://hilarious-cassata-b7ebd3.netlify.app/) to see demo of the project
 
+![kanbanclone](https://github.com/shella12/kanban-board-replica/assets/44798044/2d1712c6-589e-487d-bab6-de37872783f4)
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
