@@ -100,7 +100,29 @@ const Project = () => {
     },
   ]);
   const onDragEnd = (result) => {
-    // TODO: Add logic to handle drag and drop between columns
+    const { source, destination } = result;
+    if (!destination) return;
+    console.log('source.droppableId:', source.droppableId);
+
+    const columns = {
+      'To Do': todo,
+      'On Progress': onProgress,
+      'Done': done,
+    };
+    console.log('columns:', columns);
+    const columnSetters = {
+      'To Do': setTodo,
+      'On Progress': setOnProgress,
+      'Done': setDone,
+    };
+  
+    const sourceColumn = [...columns[source.droppableId]];
+    const destColumn = [...columns[destination.droppableId]];
+    const [removed] = sourceColumn.splice(source.index, 1);
+    destColumn.splice(destination.index, 0, removed);
+  
+    columnSetters[source.droppableId](sourceColumn);
+    columnSetters[destination.droppableId](destColumn);
   };
   return (
       <section className="kanban-project">
