@@ -2,7 +2,7 @@ import { Droppable } from "react-beautiful-dnd";
 import Cards from "./cards";
 
 const ProjectColumn = (props) => {
-  const { columnTitle, color, numberOfCards, cards, setTodo } = props;
+  const { columnTitle, color, numberOfCards, cards } = props;
   return (
     <div className="project-column">
       <div className="column-title flex">

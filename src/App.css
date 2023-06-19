@@ -469,3 +469,12 @@ font-size: 1rem;
 .card-collab img{
   width: 1.5rem;
 }
+
+.card-images {
+  gap: 0.5rem;
+}
+
+.card-images img{
+  min-width: 30%;
+  max-width: 100%;
+}

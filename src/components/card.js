@@ -2,6 +2,7 @@ import Asignee from "./Asignee";
 import iconMessage from '../assets/iconMessage.jpg';
 import iconFile from '../assets/iconFile.png';
 import { Draggable } from 'react-beautiful-dnd';
+import Images from "./Images";
 
 const Card = (props) => {
    const {card, index } = props;
@@ -14,7 +15,7 @@ const Card = (props) => {
         <span>...</span>
         </div>
         <h3>{card.title}</h3>
-        <p>{card.description}</p>
+        {card.description?(<p>{card.description}</p>):(<Images images={card.images}/>)}
         <div className="card-footer flex">
         <Asignee assignee={card.assignee}/>
         <div className="comment-and-files flex">

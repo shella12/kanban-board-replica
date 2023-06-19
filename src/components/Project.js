@@ -56,8 +56,7 @@ const Project = () => {
     {
       id: nanoid(),
       title: "Onboarding Illustrations ",
-      description:
-        "Brainstorming brings team members' diverse experience into play. ",
+      images:["https://github.com/shella12/kanban-board-replica/assets/44798044/dcf68a9a-505e-4a74-8fe7-639d25de1361"],
       priority: "low",
       numberOfAssignee: 3,
       assignee: [person4, person3, person1],
@@ -67,8 +66,8 @@ const Project = () => {
     {
       id: nanoid(),
       title: "Moodboard",
-      description:
-        "User research helps you to create an optimal product for users.",
+      images:["https://github.com/shella12/kanban-board-replica/assets/44798044/9aa3c431-efb8-4d76-9bd0-aa3ba04a44b0",
+      "https://github.com/shella12/kanban-board-replica/assets/44798044/fe113363-dd30-42a2-bfba-7fda7e03f789"],
       priority: "high",
       numberOfAssignee: 1,
       assignee: [person4],
@@ -80,8 +79,7 @@ const Project = () => {
     {
       id: nanoid(),
       title: "Mobile App Design",
-      description:
-        "Brainstorming brings team members' diverse experience into play. ",
+      images:["https://github.com/shella12/kanban-board-replica/assets/44798044/8595dbff-c1d6-4eb3-a341-ec81cc49a444"],
       priority: "completed",
       numberOfAssignee: 3,
       assignee: [person1, person3, person4],
