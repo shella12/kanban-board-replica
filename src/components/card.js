@@ -2,19 +2,25 @@ import Asignee from "./Asignee";
 import iconMessage from '../assets/iconMessage.jpg';
 import iconFile from '../assets/iconFile.png';
 import { Draggable } from 'react-beautiful-dnd';
+import Images from "./Images";
 
 const Card = (props) => {
    const {card, index } = props;
     return(
       <Draggable draggableId={card.id.toString()} index={index}>
-               {(provided) => (
-       <li className="card flex column"  ref={provided.innerRef}  {...provided.draggableProps} {...provided.dragHandleProps}>
+  {(provided, snapshot) => (
+    <li
+      className={`card flex column ${snapshot.isDragging ? "dragging" : ""}`}
+      ref={provided.innerRef}
+      {...provided.draggableProps}
+      {...provided.dragHandleProps}
+    >
         <div className="card-priority flex">
         <span className={card.priority}>{card.priority}</span>
         <span>...</span>
         </div>
         <h3>{card.title}</h3>
-        <p>{card.description}</p>
+        {card.description?(<p>{card.description}</p>):(<Images images={card.images}/>)}
         <div className="card-footer flex">
         <Asignee assignee={card.assignee}/>
         <div className="comment-and-files flex">

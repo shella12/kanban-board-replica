@@ -2,7 +2,7 @@ import { Droppable } from "react-beautiful-dnd";
 import Cards from "./cards";
 
 const ProjectColumn = (props) => {
-  const { columnTitle, color, numberOfCards, cards, setTodo } = props;
+  const { columnTitle, color, numberOfCards, cards } = props;
   return (
     <div className="project-column">
       <div className="column-title flex">
@@ -13,9 +13,9 @@ const ProjectColumn = (props) => {
       <hr className="card-divider-line" id={color} />
 
       <Droppable droppableId={columnTitle}>
-        {(provided) => (
+        {(provided,snapshot) => (
           <div
-            className="todolist"
+            className={`todolist ${snapshot.isDraggingOver ? "draggingOver" : ""}`}
             ref={provided.innerRef}
             {...provided.droppableProps}
           >
