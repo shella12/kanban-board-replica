@@ -1,6 +1,6 @@
 # 📗 Table of Contents
 
-- [📖 Air Quality WorldWide](#about-project)
+- [📖 Kanban Board Clone](#about-project)
   - [🛠 Built With](#built-with)
   - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
