@@ -80,7 +80,7 @@ const Project = () => {
       id: nanoid(),
       title: "Mobile App Design",
       images:["https://github.com/shella12/kanban-board-replica/assets/44798044/8595dbff-c1d6-4eb3-a341-ec81cc49a444"],
-      priority: "completed",
+      priority: "high",
       numberOfAssignee: 3,
       assignee: [person1, person3, person4],
       numberOfComments: 12,
@@ -90,7 +90,7 @@ const Project = () => {
       id: nanoid(),
       title: "Design System",
       description: "It just needs to adapt the UI from what you did before ",
-      priority: "completed",
+      priority: "low",
       numberOfAssignee: 2,
       assignee: [person2, person],
       numberOfComments: 10,
@@ -145,7 +145,7 @@ const Project = () => {
             columnTitle="Done"
             color="green"
             numberOfCards={Object.keys(done).length}
-            cards={done}
+            cards={done.map(card => ({ ...card, priority: "completed" }))}
           />
         </div>
     </DragDropContext>
