@@ -132,19 +132,19 @@ const Project = () => {
           <ProjectColumn
             columnTitle="To Do"
             color="royla-blue"
-            numberOfCards="4"
+            numberOfCards={Object.keys(todo).length}
             cards={todo}
           />
           <ProjectColumn
             columnTitle="On Progress"
             color="orange"
-            numberOfCards="3"
+            numberOfCards={Object.keys(onProgress).length}
             cards={onProgress}
           />
           <ProjectColumn
             columnTitle="Done"
             color="green"
-            numberOfCards="2"
+            numberOfCards={Object.keys(done).length}
             cards={done}
           />
         </div>
