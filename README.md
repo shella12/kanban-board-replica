@@ -1,6 +1,6 @@
 # 📗 Table of Contents
 
-- [📖 Air Quality WorldWide](#about-project)
+- [📖 Kanban Board Clone](#about-project)
   - [🛠 Built With](#built-with)
   - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
@@ -41,7 +41,11 @@ This project is a replica of a kanban board built using React JS. It allows you 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[Click]() to see demo of the project
+
+[Click](https://hilarious-cassata-b7ebd3.netlify.app/) to see demo of the project
+
+![kanbanclone](https://github.com/shella12/kanban-board-replica/assets/44798044/2d1712c6-589e-487d-bab6-de37872783f4)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,7 +127,9 @@ If you like this project give it a star :smiley:
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Project guidlines and [design](https://www.figma.com/file/Paz2INbKkXCSR0Tqb9cmPF/Mercor-Project) is provied by [mercor](https://mercor.io/)
+
+Project guidlines and project [design](https://www.figma.com/file/Paz2INbKkXCSR0Tqb9cmPF/Mercor-Project) provied by [mercor](https://mercor.io/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
