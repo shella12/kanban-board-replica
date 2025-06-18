@@ -8,7 +8,6 @@
     - [Setup](#setup)
     - [Install](#install)
     - [Start server](#start-server)
-    - [Test](#to-test-the-app-run-following-command)
   - [👤 Author ](#author)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
@@ -33,8 +32,6 @@ This project is a replica of a kanban board built using React JS. It allows you 
 
 ### Key Features <a name="key-features"></a>
 
-Main features:
-
 - **Allows users to drag cards between columns**
 - **Responsive design**
 
@@ -43,6 +40,7 @@ Main features:
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
+
 
 [Click](https://hilarious-cassata-b7ebd3.netlify.app/) to see demo of the project
 
@@ -129,7 +127,9 @@ If you like this project give it a star :smiley:
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+
 Project guidlines and project [design](https://www.figma.com/file/Paz2INbKkXCSR0Tqb9cmPF/Mercor-Project) provied by [mercor](https://mercor.io/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
